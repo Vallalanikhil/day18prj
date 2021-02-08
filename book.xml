@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:books xmlns:xi="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="http://www.booksinfo.com" xi:schemaLocation="http://www.booksinfo.com books.xsd">
+	<book>
+			<bid>520</bid>
+			<bname>The Millionair</bname>
+			<author>Nikhil</author>
+			<publisher pname="Nk publishers">u can see</publisher>
+		</book>	
+		
+		<book>
+			<bid>151</bid>
+			<bname>The Stranger</bname>
+			<author>Nikhil</author>
+			<publisher pname="Nk publishers">u can see</publisher>
+			</book>
+			
+			<book>
+			<bid>116</bid>
+			<bname>The Monster</bname>
+			<author>Nikhil</author>
+			<publisher pname="Nk publishers">u can see</publisher>
+			</book>
+</b:books>

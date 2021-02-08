@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.booksinfo.com">
+<xsd:element name="books">
+			<xsd:complexType>
+					<xsd:sequence>
+							<xsd:sequence>
+								<xsd:element name="book" minOccurs="1" maxOccurs="3">
+									<xsd:complexType>
+										<xsd:sequence>
+											<xsd:element name="bid" type="xsd:int"></xsd:element>
+											<xsd:element name="bname" type="xsd:string"></xsd:element>
+											<xsd:element name="author" type="xsd:string"></xsd:element>
+											<xsd:element name="publisher">
+											<xsd:complexType>
+											<xsd:attribute name="pname" type="xsd:string"></xsd:attribute>
+											</xsd:complexType>
+											</xsd:element>
+										</xsd:sequence>
+									</xsd:complexType>
+								</xsd:element>
+							</xsd:sequence>
+					</xsd:sequence>
+			</xsd:complexType>
+</xsd:element>
+</xsd:schema>
